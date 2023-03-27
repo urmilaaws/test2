@@ -1,0 +1,3 @@
+A new readme
+CreateIndex API creates a new Amazon Kendra index. Index creation is an asynchronous API. To determine if index creation has completed, check the Status field returned from a call to DescribeIndex. The Status field is set to ACTIVE when the index is ready to use.
+Once the index is active you can index your documents using the BatchPutDocument API or using one of the supported data sources.
